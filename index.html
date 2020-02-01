@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>nešto neštp proračunski obrazac</title>
+  <link rel="stylesheet" href="./src/main.css">
+</head>
+<body>
+  <h1>Fina proračunski obrazac</h1>
+  <p>Program prenaša vrijednosti tekuće godine, <b><u>izvornog dokumenta</u></b> u polja prethodne godine, <b><u>novog dokumenta</u></b>.</p>
+  <form>
+    <fieldset>
+      <legend>Učitavanje datoteka</legend>
+      <span class="input-text">Izvorni dokument:</span> <input type="file" name="obrazac" id="fileUpload">
+      <span class="input-text">Novi dokument:</span> <input type="file" name="obrazac2" id="fileUpload2">
+    </fieldset>
+  </form>
+  <script src="./src/sheetjs-0.15.5/dist/xlsx.min.js"></script>
+  <script src="./src/main.js"></script>
+</body>
+</html>

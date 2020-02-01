@@ -1,0 +1,20 @@
+body {
+  margin: 10px;
+  color: #454545;
+}
+form {
+  width: 280px;
+}
+input {
+  margin: 5px 10px;
+}
+legend {
+  font-size: small;
+}
+h1 {
+  color: #363636;
+}
+.input-text {
+  font-weight: bold;
+  color: black;
+}
